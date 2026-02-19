@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 st.set_page_config(page_icon='❤️',page_title='Heart Disease Prediction')
 
 # Load your data
-data = pd.read_csv('./data.csfd')
+data = pd.read_csv('./data.csv')
 
 # Split into features and target
 x = data.drop(columns='target', axis=1)
@@ -70,5 +70,6 @@ if __name__ == "__main__":
     main()
 
 st.write("Made by **Anchit Das**")
+
 
 
