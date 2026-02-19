@@ -1,5 +1,5 @@
-import numpy as np
 import pandas as pd
+import numpy as np
 import streamlit as st
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
@@ -70,3 +70,4 @@ if __name__ == "__main__":
     main()
 
 st.write("Made by **Anchit Das**")
+
